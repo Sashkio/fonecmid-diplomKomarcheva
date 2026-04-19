@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="05b5dde7-c767-4df1-87df-b700a241085a">
+  <name>ВКМ_РаботаСТГБотом</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа С ТГ-Ботом</value>
+  </synonym>
+  <methodName>CommonModule.ВКМ_Телеграм.ВКМ_РаботаСТГБотом</methodName>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

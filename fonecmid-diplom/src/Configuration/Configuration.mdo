@@ -40,6 +40,7 @@
   <modalityUseMode>UseWithWarnings</modalityUseMode>
   <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
   <compatibilityMode>8.3.21</compatibilityMode>
+  <defaultReportAppearanceTemplate>Green</defaultReportAppearanceTemplate>
   <languages uuid="88f37154-ded7-4bfd-87d2-34f4461294ad">
     <name>Русский</name>
     <synonym>
@@ -1304,6 +1305,10 @@
   <reports>Report.ПрогрессОтложенногоОбновления</reports>
   <reports>Report.СведенияОПользователях</reports>
   <reports>Report.УниверсальныйОтчет</reports>
+  <reports>Report.ВКМ_ВыработкаСпециалистов</reports>
+  <reports>Report.ВКМ_АнализВыставленныхАктов</reports>
+  <reports>Report.ВКМ_РасчетыССотрудниками</reports>
+  <reports>Report.ВКМ_РасчетЗапланированныхОтпусков</reports>
   <dataProcessors>DataProcessor.АвтоматическоеИзвлечениеТекстов</dataProcessors>
   <dataProcessors>DataProcessor.ВводКонтактнойИнформации</dataProcessors>
   <dataProcessors>DataProcessor.ГрупповоеИзменениеРеквизитов</dataProcessors>
@@ -1330,6 +1335,7 @@
   <dataProcessors>DataProcessor.УдалениеПомеченныхОбъектов</dataProcessors>
   <dataProcessors>DataProcessor.УправлениеИтогамиИАгрегатами</dataProcessors>
   <dataProcessors>DataProcessor.ВКМ_ЗаполнениеГрафика</dataProcessors>
+  <dataProcessors>DataProcessor.ВКМ_МассовоеСозданиеАктов</dataProcessors>
   <informationRegisters>InformationRegister.БезопасноеХранилищеДанных</informationRegisters>
   <informationRegisters>InformationRegister.БезопасноеХранилищеДанныхОбластейДанных</informationRegisters>
   <informationRegisters>InformationRegister.ВерсииПодсистем</informationRegisters>

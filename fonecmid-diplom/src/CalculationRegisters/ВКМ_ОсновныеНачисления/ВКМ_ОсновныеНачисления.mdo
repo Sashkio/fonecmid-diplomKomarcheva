@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CalculationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c737315c-1af9-42be-8137-300e4e937584">
+  <producedTypes>
+    <selectionType typeId="a44c03ad-dcf8-46cc-8893-415954021a60" valueTypeId="d6450d25-e2a3-478c-b519-95a570cf0995"/>
+    <listType typeId="0570d488-31c6-4271-9ce1-76c3f30fa3cf" valueTypeId="ed3012ea-cf4e-44e7-8d96-179149bdb84c"/>
+    <managerType typeId="bd18262c-dc25-4c6b-b4f0-0231f1fcaa45" valueTypeId="dd135dfd-3428-4505-babd-ede647ca796e"/>
+    <recordSetType typeId="a0220020-6baa-4227-b653-a6357584c8d0" valueTypeId="9128ef07-794d-404d-9a97-81532cce9ce1"/>
+    <recordKeyType typeId="5df03959-2460-4f93-bdb4-ddd9f8732edf" valueTypeId="6b57f90a-b398-42dc-ab9f-b6de97109ab3"/>
+    <recordType typeId="ebde9460-2424-457c-8c4d-492a1f3a92fe" valueTypeId="883edfc5-0340-4de8-ab15-2520ca457c28"/>
+    <recalcsType typeId="666f2f43-aefc-4dcb-9e48-899e762d1b02" valueTypeId="e1276c55-cfbb-4e7b-8a22-cb4ab7a4b443"/>
+  </producedTypes>
+  <name>ВКМ_ОсновныеНачисления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основные начисления (регистр)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <periodicity>Month</periodicity>
+  <actionPeriod>true</actionPeriod>
+  <basePeriod>true</basePeriod>
+  <schedule>InformationRegister.ВКМ_ГрафикиРаботы</schedule>
+  <scheduleValue>InformationRegister.ВКМ_ГрафикиРаботы.Resource.Значение</scheduleValue>
+  <scheduleDate>InformationRegister.ВКМ_ГрафикиРаботы.Dimension.Дата</scheduleDate>
+  <chartOfCalculationTypes>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления</chartOfCalculationTypes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="2406146f-307c-4ef2-8a08-81e5b12b3137">
+    <name>Результат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результат</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>12</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <attributes uuid="e65ab077-73c2-4a40-84d1-c360d86deecb">
+    <name>График</name>
+    <synonym>
+      <key>ru</key>
+      <value>График</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВКМ_ГрафикиРаботы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <scheduleLink>InformationRegister.ВКМ_ГрафикиРаботы.Dimension.График</scheduleLink>
+  </attributes>
+  <attributes uuid="ae9445f0-1a12-44cd-bc26-d79368680e74">
+    <name>Размер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Размер</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>12</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <dimensions uuid="6f8ff578-499e-4232-8f22-ec2b262ae8e5">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВКМ_Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <baseDimension>true</baseDimension>
+  </dimensions>
+</mdclass:CalculationRegister>

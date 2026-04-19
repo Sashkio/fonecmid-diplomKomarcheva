@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bb55d9f0-b2e2-49f9-856d-5cb6b3f89e32">
+  <name>ВКМ_РасчетУправленческойЗарплаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расчет управленческой зарплаты</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления</content>
+  <content>Catalog.ВКМ_ГрафикиРаботы</content>
+  <content>InformationRegister.ВКМ_ГрафикиРаботы</content>
+  <content>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления</content>
+  <content>ChartOfCalculationTypes.ВКМ_Удержания</content>
+  <content>CalculationRegister.ВКМ_ОсновныеНачисления</content>
+  <content>Catalog.ВКМ_Сотрудники</content>
+  <content>CalculationRegister.ВКМ_ДополнительныеНачисления</content>
+  <content>CalculationRegister.ВКМ_Удержания</content>
+  <content>InformationRegister.ВКМ_УсловияОплатыСотрудников</content>
+  <content>AccumulationRegister.ВКМ_ВыполненныеСотрудникомРаботы</content>
+  <content>Document.ВКМ_НачислениеЗарплаты</content>
+  <content>Document.ВКМ_НачислениеФиксированнойПремии</content>
+  <content>Catalog.ВКМ_Должности</content>
+  <content>DataProcessor.ВКМ_ЗаполнениеГрафика</content>
+  <content>AccumulationRegister.ВКМ_ВзаиморасчетыССотрудниками</content>
+  <content>Document.ВКМ_ВыплатаЗарплаты</content>
+  <content>Document.ВКМ_ГрафикОтпусков</content>
+  <content>Role.ВКМ_Кадровик</content>
+  <parentSubsystem>Subsystem.ВКМ_ДобавленныеОбъекты</parentSubsystem>
+</mdclass:Subsystem>
