@@ -28,6 +28,7 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.ВКМ_ГрафикОтпусков.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>AccumulationRegister.ВКМ_ОтпускаСотрудников</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="b51e21ec-6211-46a2-966c-e3439d271fb4">

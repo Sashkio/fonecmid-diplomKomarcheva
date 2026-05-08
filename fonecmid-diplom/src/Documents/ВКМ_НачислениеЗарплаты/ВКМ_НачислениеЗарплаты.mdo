@@ -31,6 +31,7 @@
   <registerRecords>CalculationRegister.ВКМ_Удержания</registerRecords>
   <registerRecords>CalculationRegister.ВКМ_ОсновныеНачисления</registerRecords>
   <registerRecords>AccumulationRegister.ВКМ_ВзаиморасчетыССотрудниками</registerRecords>
+  <registerRecords>AccumulationRegister.ВКМ_ОтпускаСотрудников</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <tabularSections uuid="e045d8bf-f1bc-42aa-856c-9e6fc9048c5d">

@@ -26,5 +26,6 @@
   <content>Document.ВКМ_ВыплатаЗарплаты</content>
   <content>Document.ВКМ_ГрафикОтпусков</content>
   <content>Role.ВКМ_Кадровик</content>
+  <content>AccumulationRegister.ВКМ_ОтпускаСотрудников</content>
   <parentSubsystem>Subsystem.ВКМ_ДобавленныеОбъекты</parentSubsystem>
 </mdclass:Subsystem>

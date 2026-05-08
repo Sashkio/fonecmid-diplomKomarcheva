@@ -219,6 +219,10 @@
       <dataPath xsi:type="form:DataPath">
         <segments>Объект.ОтпускаСотрудников.ДатаНачала</segments>
       </dataPath>
+      <handlers>
+        <event>OnChange</event>
+        <name>ОтпускаСотрудниковДатаНачалаПриИзменении</name>
+      </handlers>
       <extendedTooltip>
         <name>ОтпускаСотрудниковДатаНачалаРасширеннаяПодсказка</name>
         <id>31</id>
@@ -259,6 +263,10 @@
       <dataPath xsi:type="form:DataPath">
         <segments>Объект.ОтпускаСотрудников.ДатаОкончания</segments>
       </dataPath>
+      <handlers>
+        <event>OnChange</event>
+        <name>ОтпускаСотрудниковДатаОкончанияПриИзменении</name>
+      </handlers>
       <extendedTooltip>
         <name>ОтпускаСотрудниковДатаОкончанияРасширеннаяПодсказка</name>
         <id>34</id>
