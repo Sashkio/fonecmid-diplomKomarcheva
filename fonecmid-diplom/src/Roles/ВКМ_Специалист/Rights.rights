@@ -195,6 +195,10 @@
 			<value>true</value>
 		</right>
 		<right>
+			<name>InteractivePostingRegular</name>
+			<value>true</value>
+		</right>
+		<right>
 			<name>InteractiveChangeOfPosted</name>
 			<value>true</value>
 		</right>
